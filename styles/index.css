@@ -1,14 +1,14 @@
 nav{
 	color: #2B2F26;
-	height: 50px;
+	
 	font-size: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background-color: white;
 	margin-top: 0%;
-	margin-bottom: 100%;
-	width: 800px;
+
+
 }
 nav a{
 	color: #2B2F26;
@@ -19,4 +19,119 @@ nav a{
 body{
 	background-color:#F2F1E8;
 
+}
+.header{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.header h1{
+	margin-bottom: 1px;
+	font-size: 40px;
+}
+.header h2{
+	margin-top: 1px;
+}
+.products1{
+	display: flex;
+	flex-direction: row;
+	
+	margin: 10px;
+
+
+}
+.label{
+	color: tan;
+	font-size: 10px;
+	background-color: black;
+}
+.endless-possibilities{
+background-image: url("../images/product-1.jpg");
+margin: 10px;
+height: 300px;
+width: 650px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+
+}
+.sets{
+background-image: url("../images/product-2.jpg");
+height: 300px;
+width: 250px;
+margin: 10px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+
+
+}
+.textures{
+background-image: url("../images/product-3.jpg");
+height: 300px;
+width: 250px;
+margin: 10px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;	
+}
+.products2{
+	display: flex;
+	flex-direction: row;
+	
+	margin: 10px;
+
+
+}
+.tea-time{
+background-image: url("../images/product-4.jpg");
+height: 300px;
+width: 250px;
+margin: 10px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+}
+.jars-containers{
+background-image: url("../images/product-5.jpg");
+height: 300px;
+width: 250px;
+margin: 10px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+}
+.wasabi-saki{
+background-image: url("../images/product-6.jpg");
+height: 300px;
+width: 380px;
+margin: 10px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+}
+.sunshine{
+background-image: url("../images/product-7.jpg");
+height: 300px;
+width: 250px;
+margin: 10px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+}
+footer{
+	color: tan;
+	background-color: black;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
 }

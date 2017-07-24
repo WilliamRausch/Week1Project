@@ -1,3 +1,91 @@
-h1{
-	color:red;
+nav{
+	color: #2B2F26;
+	
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	margin-top: 0%;
+
+
+}
+nav a{
+	color: #2B2F26;
+	padding: 20px;
+	
+}
+
+body{
+	background-color:#F2F1E8;
+
+
+}
+.header{
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+}
+.content1{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	flex-direction: column;
+}
+.content1image{
+	background-image: url("../images/birdhouse.jpg");
+	background-color: red;
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+}
+.History{
+	font-size: 25px;
+}
+.main-image{
+	background-image: url("../images/background-3.jpg");
+	height: 300px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+.plans{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+footer{
+	color: tan;
+	background-color: black;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+}
+.fcontent{
+	display: flex;
+	flex-direction: row;
+
+
+}
+.fcontent p{
+	width: 100%;
+}
+.facilities-image{
+	background-image: url("../images/background-1.jpg");
+	background-color: red;
+	background-size: cover;
+    background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	flex-direction: column;
 }
